@@ -9,7 +9,7 @@
 # create env and install pyusb
     $ python3.8 -m venv env
     $ env/bin/Activate.ps1
-    $ sudo pip install --pre pyusb
+    $ pip install --pre pyusb
 
 # Ensure that the uninitialized camera is recognized:
     $ lsusb -d 05a9:0580
